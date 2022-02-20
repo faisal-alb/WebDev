@@ -26,13 +26,15 @@ header > h2 {
 }
 
 .nav-button {
-    font-size: 1.3rem;
+    color: #C73677;
+    font-size: 1.6rem;
+    font-weight: bold;
     margin: 0vh 1vw 0vh 1vw;
     transition: 0.2s;
 }
 
 .nav-button:hover {
-    color: #5E4A53;
+    color: #570C2A;
 }
 
 section {
