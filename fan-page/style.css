@@ -2,6 +2,7 @@
 
 * {
     color: #FFFCFD;
+    cursor: default;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
@@ -33,8 +34,9 @@ header > h2 {
     transition: 0.2s;
 }
 
-.nav-button:hover {
+a:hover {
     color: #570C2A;
+    cursor: pointer;
 }
 
 section {
