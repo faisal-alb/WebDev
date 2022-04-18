@@ -1,0 +1,17 @@
+/* RESET CSS */
+html, body, div, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* GEOCITIES PAGE */
+body {
+    background-image: url("gif/starrysky.gif");
+}
+
+#welcomegif {
+    position: relative;
+    left: 20vh;
+    width: 20%;
+}
