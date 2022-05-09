@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
 /* RESET CSS */
 html, body, div, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -11,7 +13,55 @@ body {
 }
 
 #welcomegif {
-    position: relative;
-    left: 20vh;
+    position: fixed;
     width: 20%;
+}
+
+#bird1 {
+    position: fixed;
+    left: 50%;
+    top: 5%;
+}
+
+#bird2 {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+.text {
+    position: absolute;
+    color: wheat;
+    top: 20%;
+    left: 40%;
+}
+
+.text > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+
+.text > p {
+    font-family: 'Tapestry', cursive;
+    font-size: 1.8rem;
+}
+
+#welcomeimg {
+    position: fixed;
+    left: 12%;
+}
+
+#hello {
+    position: fixed;
+    color: white;
+    left: 12%;
+    top: 30%;
+    width: 16%;
+}
+
+#birdimg {
+    position: fixed;
+    left: 72%;
+    top: 5%;
+    width: 4%;
 }
