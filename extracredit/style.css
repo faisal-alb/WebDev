@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.8)), url('https://www.wallpaperflare.com/static/782/524/897/sunset-manhattan-williamsburg-panoramic-photography-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-txt {
+    color: #000;
+}
+
+.img-txt > h1 {
+    font-size: 4em;
+}
+
+.img-txt > h2 {
+    font-size: 2.6em;
+}
+
+header * {
+    display: inline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+}
