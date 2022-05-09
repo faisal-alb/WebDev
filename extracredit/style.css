@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
 :root {
     --jet-black: #363636C9;
@@ -79,6 +80,7 @@ a {
 }
 
 .s > p {
+    font-family: 'Arimo', sans-serif;
     font-size: 1.2em;
     font-weight: 520;
 }
