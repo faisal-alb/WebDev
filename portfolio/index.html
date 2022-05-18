@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google" content="notranslate"> <!--For some reason chrome keeps trying to translate my name, so I solved that with this-->
+        <script src="./js/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Home Page</title>
+    </head>
+    <body>
+        <div class="index-container">
+            <header>
+                <nav class="navContainer">
+                    <div class="initials nohighlight">
+                        <span class="i-F">Faisal.</span>
+                        <span class="i-A">A.</span>
+                    </div>
+                    <ul class="navB nohighlight">
+                        <li><a class="ilinks" href="projects.html">My Projects</a></li>
+                        <li><a class="ilinks" href="about.html">About Me</a></li>
+                        <li><a class="ilinks" href="https://github.com/faisalalbalooshi" target="_blank">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="main-container">
+                    <div class="nameI">
+                        <p>Type your name here:</p>
+                        <input type="text" id="name" placeholder="First Name">
+                        <div class="nameB nohighlight"><p>Submit</p></div>
+                    </div>
+                    <div class="welcomeT">
+                        <h1 id="wt-H">Welcome to my site</h1>
+                        <p>Click on the <b>My Projects</b> tab to see my projects throught the semester.</p>
+                        <p>Click on the <b>About Me</b> tab to see some info about me.</p>
+                        <p>Click on the <b>Contact Me</b> tab to get directed to my Github.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="loading-container">
+            <h1 id="welcome" class="nohighlight">Welcome</h1>
+            <div class="loading-bar">
+                <div class="loading-fill"></div>
+            </div>
+        </div>
+    </body>
+    <script src="js/script.js"></script>
+</html>
